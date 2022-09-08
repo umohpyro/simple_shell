@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * check_env - checks if the typed variable is an env variable
@@ -181,4 +181,3 @@ char *rep_var(char *input, data_shell *datash)
 
 	return (new_input);
 }
-
